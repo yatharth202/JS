@@ -30,13 +30,13 @@
 
 console.log(Math.random());  //values range is [0,1]
 console.log((Math.random()*10) + 1); // value range is [1,10)
-console.log(Math.floor((Math.random()*10) + 1));
+console.log(Math.floor((Math.random()*10) + 1)); // approx
 
 
 const min = 10;
 const max = 20;
 
-console.log(Math.floor((Math.random() * (max - min + 1)) + min))
+console.log(Math.floor((Math.random() * (max - min + 1)) + min)) ///imp to print in the range of max and min (ex [10,20])
 
 
 

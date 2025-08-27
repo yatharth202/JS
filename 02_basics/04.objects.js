@@ -59,9 +59,40 @@ const obj3 = {5: "a", 6: "b"}
 
 // console.log(tinderUser);
 
-console.log(Object.keys(tinderUser)); // keys will covert into array data type which is very imp
-console.log(Object.values(tinderUser)); // values will convert into array 
-console.log(Object.entries(tinderUser)); // array ke ander array key and vaules ka seprate values array data type
+// console.log(Object.keys(tinderUser)); // keys will covert into array data type which is very imp
+// console.log(Object.values(tinderUser)); // values will convert into array 
+// console.log(Object.entries(tinderUser)); // array ke ander array key and vaules ka seprate values array data type
 
-console.log(tinderUser.hasOwnProperty('IsLoggedIn'))
-console.log(tinderUser.hasOwnProperty('isLogged'))
+// console.log(tinderUser.hasOwnProperty('IsLoggedIn'))
+// console.log(tinderUser.hasOwnProperty('isLogged'))
+
+
+const course = {
+    coursename: "Js in Hindi ",
+    price: "999",
+    courseInstructor: "Hitesh",
+
+}
+
+// course.courseInstructor
+
+// destructure of code 
+//shortcut 
+
+const {courseInstructor : instructor} = course // : new shortcut name // optional
+
+// console.log(courseInstructor);
+console.log(instructor)
+
+
+// {
+//     "name" : "Yatharth",
+//     "coursename" : "js in hindi",
+//     "price": "free"
+// }
+
+{
+    {},
+    {},
+    {},
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chai aur Code</title>
+</head>
+<body style="background-color: #212121; color: #fff;">
+    
+</body>
+
+<script>
+    const div = document.createElement('div');
+    console.log(div);
+    div.className = "main"
+    div.id = /*"myId"*/ Math.round(Math.random()*10+1) // random Id
+    div.setAttribute("title", "generated title")//key and value (title = title name)
+    div.style.backgroundColor = "green"
+    div.style.padding = "12px"
+    // div.innerHTML = "Chai aur Code" both method good // this overrides data like pahale vvo utha ke layega then override karega 
+    const addText = document.createTextNode("Chai aur code")
+    div.appendChild(addText) // good practice
+
+    document.body.appendChild(div)
+
+</script>
+
+</html>
